@@ -16,7 +16,7 @@ class zukiChatCall:
                 },
                 {
                     "role": "user",
-                    "content": systemPrompt + '\n Here is a message a user called ' + userName + ' sent you: ' + userMessage,
+                    "content": userMessage,
                 },
             ],
             "temperature": currTemp,
